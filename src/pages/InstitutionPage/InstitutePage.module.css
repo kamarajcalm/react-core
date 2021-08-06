@@ -1,0 +1,36 @@
+.DropDownRoot{
+    background-color:var(--bar-color);
+    border-width: 0px;
+    border-radius: 5px;
+    color: var(--text-color);
+    box-shadow:3px 3px 3px var(--shadow-color);
+
+}
+.textInput{
+    height:6vh;
+    background-color: var(--bg-color);
+    border-color: var(--text-color);
+    border-width: 2px;
+    border-radius: 5px;
+    color: var(--text-color);
+    width: 25vw;
+}
+.root{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.btn{
+    height: 6vh;
+    background-color: var(--bar-color);
+    box-shadow:3px 3px 3px var(--shadow-color);
+    color: var(--text-color);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.Link{
+    color: var(--text-color);
+}

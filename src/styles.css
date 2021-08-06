@@ -1,0 +1,29 @@
+:root {
+  --bg-color: #fff;
+  --text-color: #000;
+  --shadow-color:grey;
+  --bar-color:#fff;
+  --nav-color:#eee;
+}
+
+[data-theme="dark"] {
+  --bg-color: #000;
+  --text-color: #fff;
+  --shadow-color:#140e0e;
+  --bar-color:#0000;
+  --nav-color:#3f3f3f;
+}
+
+.App {
+  font-family: sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  
+}
+.NavBar{
+  flex: 0.15;
+  box-shadow: 3px 3px 3px var(--shadow-color);
+  background-color: var(--bar-color);
+  overflow: auto;
+}
+ 
